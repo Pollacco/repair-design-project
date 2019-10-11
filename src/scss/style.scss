@@ -1,16 +1,37 @@
-$bgcolor: aquamarine;
-
 body {
-    background-color: $bgcolor;
+    font-family: "Titillium Web", Arial, sans-serif;
+    max-width: 1440px;
+    margin: 0 auto; 
+}
+
+.header-wrapper {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    height: 100vh;
-    padding: 0;
-    margin: 0;
-    h1 {
-        font-size: 72px;
-        margin: 0;
+    height: 83px;
+    display: flex;
+    background-color: #131313;
+    color: white;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    &__list{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}
+main {
+    width: 100%;
+}
+.perfomance-wrapper {
+    height: 755px;
+    background: url(../assets/img/1st.png) no-repeat center top;
+    background-size: cover;
+    .perfomance{
+    
     }
 }
